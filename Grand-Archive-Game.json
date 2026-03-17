@@ -44,14 +44,15 @@
     "deckRulesets": {
       "Standard": {
         "general": {
-          "min": 60,
-          "max": 60
+          "min": 72,
+          "maxPerCard": 4
         },
         "categories": [
           {
             "category": "Material",
             "min": 12,
-            "max": 12
+            "max": 12,
+            "maxPerCard": 1
           },
           {
             "category": "Sideboard",
