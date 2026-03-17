@@ -100,62 +100,114 @@
       "sections": {
         "customSections": [
           "Material",
+          "Champion",
+          "Banishment",
           "Memory",
           "Field",
           "Pantheon"
         ],
         "layout": {
-          "direction": "row",
+          "direction": "column",
           "isSymetricalForOpponents": false,
           "content": [
             {
-              "direction": "column",
-              "style": false,
-              "content": [
-                {
-                  "section": "Pantheon",
-                  "style": false
-                },
-                {
-                  "section": "Material",
-                  "style": false
-                }
-              ],
-              "isSymetricalForOpponents": false
+              "section": "Field",
+              "style": {
+                "height": "28vh",
+                "borderRadius": "1vh",
+                "margin": "0.25vh"
+              }
             },
             {
-              "direction": "column",
-              "style": "",
+              "direction": "row",
+              "style": {
+                "height": "24vh"
+              },
               "content": [
                 {
-                  "section": "Field",
-                  "style": false
+                  "direction": "column",
+                  "style": {
+                    "width": "10.5vh",
+                    "margin": "0.25vh"
+                  },
+                  "content": [
+                    {
+                      "section": "Material",
+                      "style": {
+                        "height": "14.5vh"
+                      }
+                    },
+                    {
+                      "section": "Pantheon",
+                      "style": {
+                        "marginTop": "0.5vh",
+                        "height": "8.5vh",
+                        "width": "20.5vh"
+                      }
+                    }
+                  ]
                 },
+                {
+                  "direction": "column",
+                  "style": {
+                    "width": "10.5vh",
+                    "margin": "0.25vh"
+                  },
+                  "content": [
+                    {
+                      "section": "Champion",
+                      "style": {
+                        "height": "14.5vh"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "minHeight": "22vh"
+              },
+              "content": [
                 {
                   "section": "Memory",
-                  "style": false
-                }
-              ],
-              "isSymetricalForOpponents": false
-            },
-            {
-              "direction": "column",
-              "style": false,
-              "content": [
-                {
-                  "section": "Exile",
-                  "style": false
+                  "style": {
+                    "width": "100%",
+                    "borderRadius": "1vh",
+                    "margin": "0.25vh"
+                  }
                 },
                 {
-                  "section": "Deck",
-                  "style": false
-                },
-                {
-                  "section": "Discard",
-                  "style": false
+                  "direction": "column",
+                  "style": {
+                    "width": "10.5vh",
+                    "margin": "0.25vh"
+                  },
+                  "content": [
+                    {
+                      "section": "Banishment",
+                      "style": {
+                        "height": "8.5vh"
+                      }
+                    },
+                    {
+                      "section": "Deck",
+                      "style": {
+                        "marginTop": "0.5vh",
+                        "height": "6.5vh"
+                      }
+                    },
+                    {
+                      "section": "Discard",
+                      "style": {
+                        "marginTop": "0.5vh",
+                        "height": "6.5vh"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "isSymetricalForOpponents": false
+              ]
             }
           ]
         },
@@ -176,17 +228,91 @@
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": false,
-            "displayedTitle": "Material Deck"
+            "displayedTitle": "Material Deck",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Champion": {
+            "title": "Champion",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Champion",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "cardStyle": {
+              "marginLeft": "-6vh"
+            },
+            "reverseZOrder": true
+          },
+          "Field": {
+            "title": "Field",
+            "isHidden": "no",
+            "height": "18",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Field",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Memory": {
             "title": "Memory",
             "isHidden": "opponent-only",
+            "height": "12",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Memory",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "Banishment": {
+            "title": "Banishment",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Banishment",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": true,
+            "noQuickActions": false
+          },
+          "Pantheon": {
+            "title": "Pantheon",
+            "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Memory",
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
