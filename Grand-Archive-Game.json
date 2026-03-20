@@ -156,8 +156,8 @@
                     {
                       "section": "Champion",
                       "style": {
-                        "height": "8vh",
-                        "marginTop": "0.5vh"
+                        "height": "9vh",
+                        "marginTop": "-1.5vh"
                       }
                     }
                   ]
@@ -166,7 +166,8 @@
                   "section": "Memory",
                   "style": {
                     "margin": "0.25vh",
-                    "borderRadius": "1vh"
+                    "borderRadius": "1vh",
+                    "marginTop": "-8vh"
                   }
                 },
                 {
@@ -179,7 +180,10 @@
                     {
                       "section": "Banishment",
                       "style": {
-                        "height": "8vh"
+                        "height": "8vh",
+                        "width": "16vh",
+                        "marginLeft": "-16vh",
+                        "marginTop": "-16vh"
                       }
                     },
                     {
@@ -406,8 +410,8 @@
                     {
                       "section": "Champion",
                       "style": {
-                        "height": "8vh",
-                        "marginTop": "0.5vh"
+                        "height": "9vh",
+                        "marginTop": "-1.5vh"
                       }
                     }
                   ]
@@ -416,7 +420,8 @@
                   "section": "Memory",
                   "style": {
                     "margin": "0.25vh",
-                    "borderRadius": "1vh"
+                    "borderRadius": "1vh",
+                    "marginTop": "-8vh"
                   }
                 },
                 {
@@ -429,7 +434,10 @@
                     {
                       "section": "Banishment",
                       "style": {
-                        "height": "8vh"
+                        "height": "8vh",
+                        "width": "16vh",
+                        "marginLeft": "-16vh",
+                        "marginTop": "-16vh"
                       }
                     },
                     {
