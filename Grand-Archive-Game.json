@@ -24,21 +24,15 @@
     "formats": [
       {
         "title": "Standard",
-        "gameplay": "Grand Archive",
-        "customCategories": [],
-        "deckRuleset": "Standard"
-      },
-      {
-        "title": "Spoilers",
-        "gameplay": "Grand Archive",
+        "gameplay": "Standard",
         "customCategories": [],
         "deckRuleset": "Standard"
       },
       {
         "title": "Pantheon",
-        "gameplay": "Grand Archive",
+        "gameplay": "Pantheon",
         "customCategories": [],
-        "deckRuleset": "Standard"
+        "deckRuleset": "Pantheon"
       }
     ],
     "deckRulesets": {
@@ -55,6 +49,34 @@
             "maxPerCard": 1
           },
           {
+            "category": "Boons",
+            "min": 0,
+            "max": 0
+          },
+          {
+            "category": "Sideboard",
+            "min": 0,
+            "max": 15
+          }
+        ]
+      },
+      "Pantheon": {
+        "general": {
+          "min": 72,
+          "maxPerCard": 1
+        },
+        "categories": [
+          {
+            "category": "Material",
+            "min": 12,
+            "max": 12,
+            "maxPerCard": 1
+          },
+          {
+            "category": "Boons",
+            "min": 0
+          },
+          {
             "category": "Sideboard",
             "min": 0,
             "max": 15
@@ -64,7 +86,7 @@
     }
   },
   "gameplay": {
-    "Grand Archive": {
+    "Standard": {
       "mulligan": {
         "info": "",
         "startingHandSize": "0",
@@ -79,20 +101,7 @@
         "drawPerTurn": "0"
       },
       "defaultNotes": "",
-      "tokens": [
-        {
-          "name": "Powercell",
-          "image": "powercellimage.jpg",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
-        },
-        {
-          "name": "Dire Wolf",
-          "image": "direwolfimage.jpg",
-          "isUnique": true,
-          "leavesAtEndOfTurn": false
-        }
-      ],
+      "tokens": [],
       "countersStartingValues": [
         "1"
       ],
@@ -104,7 +113,7 @@
           "Banishment",
           "Memory",
           "Field",
-          "Pantheon"
+          "Stack"
         ],
         "layout": {
           "direction": "column",
@@ -119,90 +128,72 @@
               }
             },
             {
+              "section": "Stack",
+              "style": {
+                "height": "8vh",
+                "margin": "0.25vh"
+              }
+            },
+            {
               "direction": "row",
               "style": {
-                "height": "24vh"
+                "minHeight": "24vh"
               },
               "content": [
                 {
                   "direction": "column",
                   "style": {
-                    "width": "10.5vh",
+                    "width": "12vh",
                     "margin": "0.25vh"
                   },
                   "content": [
                     {
                       "section": "Material",
                       "style": {
-                        "height": "14.5vh"
+                        "height": "12vh"
                       }
                     },
                     {
-                      "section": "Pantheon",
+                      "section": "Champion",
                       "style": {
-                        "marginTop": "0.5vh",
-                        "height": "8.5vh",
-                        "width": "20.5vh"
+                        "height": "8vh",
+                        "marginTop": "0.5vh"
                       }
                     }
                   ]
                 },
                 {
-                  "direction": "column",
-                  "style": {
-                    "width": "10.5vh",
-                    "margin": "0.25vh"
-                  },
-                  "content": [
-                    {
-                      "section": "Champion",
-                      "style": {
-                        "height": "14.5vh"
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "minHeight": "22vh"
-              },
-              "content": [
-                {
                   "section": "Memory",
                   "style": {
-                    "width": "100%",
-                    "borderRadius": "1vh",
-                    "margin": "0.25vh"
+                    "margin": "0.25vh",
+                    "borderRadius": "1vh"
                   }
                 },
                 {
                   "direction": "column",
                   "style": {
-                    "width": "10.5vh",
+                    "width": "11vh",
                     "margin": "0.25vh"
                   },
                   "content": [
                     {
                       "section": "Banishment",
                       "style": {
-                        "height": "8.5vh"
+                        "height": "8vh"
                       }
                     },
                     {
                       "section": "Deck",
                       "style": {
                         "marginTop": "0.5vh",
-                        "height": "6.5vh"
+                        "height": "7vh"
                       }
                     },
                     {
                       "section": "Discard",
                       "style": {
                         "marginTop": "0.5vh",
-                        "height": "6.5vh"
+                        "height": "7vh"
                       }
                     }
                   ]
@@ -239,7 +230,7 @@
           "Champion": {
             "title": "Champion",
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
@@ -252,7 +243,7 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "cardStyle": {
-              "marginLeft": "-6vh"
+              "marginLeft": "-5.5vh"
             },
             "reverseZOrder": true
           },
@@ -275,7 +266,7 @@
           "Memory": {
             "title": "Memory",
             "isHidden": "opponent-only",
-            "height": "12",
+            "height": "14",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
@@ -295,7 +286,7 @@
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
-            "isHorizontalAllowed": true,
+            "isHorizontalAllowed": false,
             "displayedTitle": "Banishment",
             "enterTapped": false,
             "enterSpun": false,
@@ -304,11 +295,279 @@
             "showHiddenCardInHistory": true,
             "noQuickActions": false
           },
-          "Pantheon": {
-            "title": "Pantheon",
+          "Stack": {
+            "title": "Stack",
+            "isDefaultSection": true,
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Stack",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      },
+      "draggableTokens": [
+        {
+          "id": "powercell-token",
+          "name": "Powercell",
+          "image": "https://raw.githubusercontent.com/AmphiBlocks/Grand-Archive-TTS/master/card_images/grand_archive/kh9ngakrff.jpg"
+        },
+        {
+          "id": "fledgling-token",
+          "name": "Fledgling",
+          "image": "https://raw.githubusercontent.com/AmphiBlocks/Grand-Archive-TTS/master/card_images/grand_archive/prawtayu4e.jpg"
+        }
+      ]
+    },
+    "Pantheon": {
+      "mulligan": {
+        "info": "",
+        "startingHandSize": "0",
+        "drawNewHand": false,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": "0"
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "countersStartingValues": [
+        "1"
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Material",
+          "Champion",
+          "Banishment",
+          "Memory",
+          "Field",
+          "Boons",
+          "Stack"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": false,
+          "content": [
+            {
+              "section": "Field",
+              "style": {
+                "height": "28vh",
+                "borderRadius": "1vh",
+                "margin": "0.25vh"
+              }
+            },
+            {
+              "section": "Stack",
+              "style": {
+                "height": "8vh",
+                "margin": "0.25vh"
+              }
+            },
+            {
+              "direction": "row",
+              "style": {
+                "minHeight": "24vh"
+              },
+              "content": [
+                {
+                  "direction": "column",
+                  "style": {
+                    "width": "12vh",
+                    "margin": "0.25vh"
+                  },
+                  "content": [
+                    {
+                      "section": "Boons",
+                      "style": {
+                        "height": "8.5vh",
+                        "width": "20.5vh",
+                        "marginBottom": "0.5vh"
+                      }
+                    },
+                    {
+                      "section": "Material",
+                      "style": {
+                        "height": "12vh"
+                      }
+                    },
+                    {
+                      "section": "Champion",
+                      "style": {
+                        "height": "8vh",
+                        "marginTop": "0.5vh"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "section": "Memory",
+                  "style": {
+                    "margin": "0.25vh",
+                    "borderRadius": "1vh"
+                  }
+                },
+                {
+                  "direction": "column",
+                  "style": {
+                    "width": "11vh",
+                    "margin": "0.25vh"
+                  },
+                  "content": [
+                    {
+                      "section": "Banishment",
+                      "style": {
+                        "height": "8vh"
+                      }
+                    },
+                    {
+                      "section": "Deck",
+                      "style": {
+                        "marginTop": "0.5vh",
+                        "height": "7vh"
+                      }
+                    },
+                    {
+                      "section": "Discard",
+                      "style": {
+                        "marginTop": "0.5vh",
+                        "height": "7vh"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Material",
+          "Boons",
+          "Deck"
+        ],
+        "autoPlayFromHand": {
+          "Material": "Field"
+        },
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "Material": {
+            "title": "Material",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Material Deck",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Champion": {
+            "title": "Champion",
+            "isHidden": "no",
+            "height": "MEDIUM",
             "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Champion",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "cardStyle": {
+              "marginLeft": "-5.5vh"
+            },
+            "reverseZOrder": true
+          },
+          "Field": {
+            "title": "Field",
+            "isHidden": "no",
+            "height": "18",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Field",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Memory": {
+            "title": "Memory",
+            "isHidden": "opponent-only",
+            "height": "14",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Memory",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "Banishment": {
+            "title": "Banishment",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Banishment",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": true,
+            "noQuickActions": false
+          },
+          "Stack": {
+            "title": "Stack",
+            "isDefaultSection": true,
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Stack",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Boons": {
+            "title": "Boons",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK",
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
@@ -321,7 +580,19 @@
             "noQuickActions": false
           }
         }
-      }
+      },
+      "draggableTokens": [
+        {
+          "id": "powercell-token",
+          "name": "Powercell",
+          "image": "https://raw.githubusercontent.com/AmphiBlocks/Grand-Archive-TTS/master/card_images/grand_archive/kh9ngakrff.jpg"
+        },
+        {
+          "id": "fledgling-token",
+          "name": "Fledgling",
+          "image": "https://raw.githubusercontent.com/AmphiBlocks/Grand-Archive-TTS/master/card_images/grand_archive/prawtayu4e.jpg"
+        }
+      ]
     }
   }
 }
