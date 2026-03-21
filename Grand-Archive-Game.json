@@ -170,7 +170,7 @@
                   "style": {
                     "margin": "0.25vh",
                     "borderRadius": "1vh",
-                    "marginTop": "-8vh",
+                    "marginTop": "-16vh",
                     "height": "15vh"
                   }
                 },
@@ -215,9 +215,26 @@
           "Deck"
         ],
         "autoPlayFromHand": {
-          "Material": "Field"
+          "ALLY": "Field",
+          "DOMAIN": "Field",
+          "ITEM": "Field",
+          "MASTERY": "Field",
+          "Material": "Field",
+          "PHANTASIA": "Field",
+          "PHANTASIA / ALLY": "Field",
+          "UNIQUE / ALLY": "Field",
+          "UNIQUE / DOMAIN": "Field",
+          "UNIQUE / ITEM": "Field",
+          "UNIQUE / PHANTASIA": "Field",
+          "UNIQUE / WEAPON": "Field",
+          "WEAPON": "Field",
+          "ACTION": "Stack",
+          "ATTACK": "Stack"
         },
-        "autoPlayFromStack": {},
+        "autoPlayFromStack": {
+          "ACTION": "Discard",
+          "ATTACK": "Discard"
+        },
         "sectionsDict": {
           "Material": {
             "title": "Material",
@@ -424,7 +441,7 @@
                   "style": {
                     "margin": "0.25vh",
                     "borderRadius": "1vh",
-                    "marginTop": "-8vh",
+                    "marginTop": "-16vh",
                     "height": "15vh"
                   }
                 },
@@ -470,9 +487,26 @@
           "Deck"
         ],
         "autoPlayFromHand": {
-          "Material": "Field"
+          "ALLY": "Field",
+          "DOMAIN": "Field",
+          "ITEM": "Field",
+          "MASTERY": "Field",
+          "Material": "Field",
+          "PHANTASIA": "Field",
+          "PHANTASIA / ALLY": "Field",
+          "UNIQUE / ALLY": "Field",
+          "UNIQUE / DOMAIN": "Field",
+          "UNIQUE / ITEM": "Field",
+          "UNIQUE / PHANTASIA": "Field",
+          "UNIQUE / WEAPON": "Field",
+          "WEAPON": "Field",
+          "ACTION": "Stack",
+          "ATTACK": "Stack"
         },
-        "autoPlayFromStack": {},
+        "autoPlayFromStack": {
+          "ACTION": "Discard",
+          "ATTACK": "Discard"
+        },
         "sectionsDict": {
           "Material": {
             "title": "Material",
