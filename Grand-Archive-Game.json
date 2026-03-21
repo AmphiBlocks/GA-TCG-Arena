@@ -111,7 +111,7 @@
           "Material",
           "Champion",
           "Banishment",
-          "Memory",
+          "Mana",
           "Field",
           "Stack"
         ],
@@ -137,7 +137,7 @@
             {
               "direction": "row",
               "style": {
-                "minHeight": "24vh"
+                "minHeight": "14vh"
               },
               "content": [
                 {
@@ -150,7 +150,9 @@
                     {
                       "section": "Material",
                       "style": {
-                        "height": "12vh"
+                        "height": "8vh",
+                        "width": "8vh",
+                        "marginTop": "-16vh"
                       }
                     }
                   ]
@@ -161,17 +163,18 @@
                     "width": "12vh",
                     "height": "12vh",
                     "margin": "0.25vh",
-                    "marginTop": "-6vh",
+                    "marginTop": "-16vh",
                     "marginRight": "0.5vh",
                     "borderRadius": "1vh"
                   }
                 },
                 {
-                  "section": "Memory",
+                  "section": "Mana",
                   "style": {
                     "margin": "0.25vh",
                     "borderRadius": "1vh",
-                    "marginTop": "-20vh"
+                    "marginTop": "-14vh",
+                    "height": "16vh"
                   }
                 },
                 {
@@ -222,7 +225,7 @@
           "Material": {
             "title": "Material",
             "isHidden": "yes",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "DECK",
             "opponentAlignment": false,
             "noAutoPayTo": true,
@@ -267,22 +270,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Memory": {
-            "title": "Memory",
-            "isHidden": "opponent-only",
-            "height": "14",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": true,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Memory",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
           "Banishment": {
             "title": "Banishment",
             "isHidden": "no",
@@ -315,6 +302,22 @@
             "enterSpun": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "Mana": {
+            "title": "Mana",
+            "isHidden": "opponent-only",
+            "height": "16",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Memory",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
           }
         }
       },
@@ -356,7 +359,7 @@
           "Material",
           "Champion",
           "Banishment",
-          "Memory",
+          "Mana",
           "Field",
           "Boons",
           "Stack"
@@ -383,7 +386,7 @@
             {
               "direction": "row",
               "style": {
-                "minHeight": "24vh"
+                "minHeight": "14vh"
               },
               "content": [
                 {
@@ -404,7 +407,9 @@
                     {
                       "section": "Material",
                       "style": {
-                        "height": "12vh"
+                        "height": "8vh",
+                        "width": "8vh",
+                        "marginTop": "-16vh"
                       }
                     }
                   ]
@@ -415,17 +420,18 @@
                     "width": "12vh",
                     "height": "12vh",
                     "margin": "0.25vh",
-                    "marginTop": "-6vh",
+                    "marginTop": "-16vh",
                     "marginRight": "0.5vh",
                     "borderRadius": "1vh"
                   }
                 },
                 {
-                  "section": "Memory",
+                  "section": "Mana",
                   "style": {
                     "margin": "0.25vh",
                     "borderRadius": "1vh",
-                    "marginTop": "-20vh"
+                    "marginTop": "-14vh",
+                    "height": "16vh"
                   }
                 },
                 {
@@ -477,7 +483,7 @@
           "Material": {
             "title": "Material",
             "isHidden": "yes",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "DECK",
             "opponentAlignment": false,
             "noAutoPayTo": true,
@@ -521,22 +527,6 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
-          },
-          "Memory": {
-            "title": "Memory",
-            "isHidden": "opponent-only",
-            "height": "14",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": true,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Memory",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
           },
           "Banishment": {
             "title": "Banishment",
@@ -580,6 +570,22 @@
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "displayedTitle": "",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "Mana": {
+            "title": "Mana",
+            "isHidden": "opponent-only",
+            "height": "16",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Memory",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
