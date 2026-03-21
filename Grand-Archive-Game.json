@@ -112,8 +112,7 @@
           "Champion",
           "Banishment",
           "Mana",
-          "Field",
-          "Stack"
+          "Field"
         ],
         "layout": {
           "direction": "column",
@@ -122,83 +121,78 @@
             {
               "section": "Field",
               "style": {
-                "height": "24vh",
+                "height": "28vh",
                 "borderRadius": "1vh",
                 "margin": "0.25vh"
               }
             },
             {
-              "section": "Stack",
-              "style": {
-                "height": "8vh",
-                "margin": "0.25vh"
-              }
-            },
-            {
               "direction": "row",
-              "style": {
-                "margin": "0.25vh",
-                "alignItems": "flex-start"
-              },
+              "style": false,
               "content": [
                 {
                   "direction": "column",
                   "style": {
                     "width": "10vh",
-                    "marginRight": "0.5vh"
+                    "margin": "0.25vh"
                   },
                   "content": [
                     {
                       "section": "Material",
                       "style": {
                         "height": "7vh",
-                        "width": "7vh"
-                      }
-                    },
-                    {
-                      "section": "Champion",
-                      "style": {
-                        "height": "8vh",
-                        "width": "8vh",
-                        "marginTop": "0.5vh",
-                        "borderRadius": "1vh"
+                        "width": "7vh",
+                        "marginTop": "-10vh"
                       }
                     }
                   ]
                 },
                 {
+                  "section": "Champion",
+                  "style": {
+                    "width": "10vh",
+                    "height": "10vh",
+                    "margin": "0.25vh",
+                    "marginTop": "-10vh",
+                    "borderRadius": "1vh"
+                  }
+                },
+                {
                   "section": "Mana",
                   "style": {
-                    "height": "18vh",
-                    "marginRight": "0.5vh",
-                    "borderRadius": "1vh"
+                    "margin": "0.25vh",
+                    "borderRadius": "1vh",
+                    "marginTop": "-16vh",
+                    "height": "15vh"
                   }
                 },
                 {
                   "direction": "column",
                   "style": {
-                    "width": "10vh"
+                    "width": "10vh",
+                    "margin": "0.25vh"
                   },
                   "content": [
                     {
                       "section": "Banishment",
                       "style": {
-                        "height": "4.5vh",
-                        "width": "6.5vh",
-                        "marginBottom": "0.5vh",
-                        "marginLeft": "2vh"
+                        "height": "5vh",
+                        "width": "7vh",
+                        "marginLeft": "12vh",
+                        "marginTop": "-12vh"
                       }
                     },
                     {
                       "section": "Deck",
                       "style": {
-                        "height": "6.5vh",
-                        "marginBottom": "0.5vh"
+                        "marginTop": "0.5vh",
+                        "height": "6.5vh"
                       }
                     },
                     {
                       "section": "Discard",
                       "style": {
+                        "marginTop": "0.5vh",
                         "height": "6.5vh"
                       }
                     }
@@ -386,8 +380,7 @@
           "Banishment",
           "Mana",
           "Field",
-          "Boons",
-          "Stack"
+          "Boons"
         ],
         "layout": {
           "direction": "column",
@@ -396,30 +389,20 @@
             {
               "section": "Field",
               "style": {
-                "height": "24vh",
+                "height": "28vh",
                 "borderRadius": "1vh",
                 "margin": "0.25vh"
               }
             },
             {
-              "section": "Stack",
-              "style": {
-                "height": "8vh",
-                "margin": "0.25vh"
-              }
-            },
-            {
               "direction": "row",
-              "style": {
-                "margin": "0.25vh",
-                "alignItems": "flex-start"
-              },
+              "style": false,
               "content": [
                 {
                   "direction": "column",
                   "style": {
                     "width": "10vh",
-                    "marginRight": "0.5vh"
+                    "margin": "0.25vh"
                   },
                   "content": [
                     {
@@ -434,53 +417,58 @@
                       "section": "Material",
                       "style": {
                         "height": "7vh",
-                        "width": "7vh"
-                      }
-                    },
-                    {
-                      "section": "Champion",
-                      "style": {
-                        "height": "8vh",
-                        "width": "8vh",
-                        "marginTop": "0.5vh",
-                        "borderRadius": "1vh"
+                        "width": "7vh",
+                        "marginTop": "-10vh"
                       }
                     }
                   ]
                 },
                 {
+                  "section": "Champion",
+                  "style": {
+                    "width": "10vh",
+                    "height": "10vh",
+                    "margin": "0.25vh",
+                    "marginTop": "-10vh",
+                    "borderRadius": "1vh"
+                  }
+                },
+                {
                   "section": "Mana",
                   "style": {
-                    "height": "18vh",
-                    "marginRight": "0.5vh",
-                    "borderRadius": "1vh"
+                    "margin": "0.25vh",
+                    "borderRadius": "1vh",
+                    "marginTop": "-16vh",
+                    "height": "15vh"
                   }
                 },
                 {
                   "direction": "column",
                   "style": {
-                    "width": "10vh"
+                    "width": "10vh",
+                    "margin": "0.25vh"
                   },
                   "content": [
                     {
                       "section": "Banishment",
                       "style": {
-                        "height": "4.5vh",
-                        "width": "6.5vh",
-                        "marginBottom": "0.5vh",
-                        "marginLeft": "2vh"
+                        "height": "5vh",
+                        "width": "7vh",
+                        "marginLeft": "12vh",
+                        "marginTop": "-12vh"
                       }
                     },
                     {
                       "section": "Deck",
                       "style": {
-                        "height": "6.5vh",
-                        "marginBottom": "0.5vh"
+                        "marginTop": "0.5vh",
+                        "height": "6.5vh"
                       }
                     },
                     {
                       "section": "Discard",
                       "style": {
+                        "marginTop": "0.5vh",
                         "height": "6.5vh"
                       }
                     }
