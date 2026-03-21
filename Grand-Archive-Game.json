@@ -156,8 +156,10 @@
                     {
                       "section": "Champion",
                       "style": {
-                        "height": "9vh",
-                        "marginTop": "-1.5vh"
+                        "height": "16vh",
+                        "marginTop": "-8vh",
+                        "width": "18vh",
+                        "marginLeft": "2vh"
                       }
                     }
                   ]
@@ -167,7 +169,7 @@
                   "style": {
                     "margin": "0.25vh",
                     "borderRadius": "1vh",
-                    "marginTop": "-8vh"
+                    "marginTop": "-20vh"
                   }
                 },
                 {
@@ -315,6 +317,28 @@
             "enterSpun": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "Hand": {
+            "title": "Hand",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Hand",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "cardActionShortcut": {
+              "action": "MOVE",
+              "actionData": {
+                "destination": "Memory"
+              }
+            }
           }
         }
       },
@@ -410,8 +434,10 @@
                     {
                       "section": "Champion",
                       "style": {
-                        "height": "9vh",
-                        "marginTop": "-1.5vh"
+                        "height": "16vh",
+                        "marginTop": "-8vh",
+                        "width": "18vh",
+                        "marginLeft": "2vh"
                       }
                     }
                   ]
@@ -421,7 +447,7 @@
                   "style": {
                     "margin": "0.25vh",
                     "borderRadius": "1vh",
-                    "marginTop": "-8vh"
+                    "marginTop": "-20vh"
                   }
                 },
                 {
@@ -586,6 +612,28 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "noQuickActions": false
+          },
+          "Hand": {
+            "title": "Hand",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Hand",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "cardActionShortcut": {
+              "action": "MOVE",
+              "actionData": {
+                "destination": "Memory"
+              }
+            }
           }
         }
       },
