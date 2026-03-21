@@ -122,7 +122,7 @@
             {
               "section": "Field",
               "style": {
-                "height": "28vh",
+                "height": "24vh",
                 "borderRadius": "1vh",
                 "margin": "0.25vh"
               }
@@ -136,71 +136,69 @@
             },
             {
               "direction": "row",
-              "style": false,
+              "style": {
+                "margin": "0.25vh",
+                "alignItems": "flex-start"
+              },
               "content": [
                 {
                   "direction": "column",
                   "style": {
                     "width": "10vh",
-                    "margin": "0.25vh"
+                    "marginRight": "0.5vh"
                   },
                   "content": [
                     {
                       "section": "Material",
                       "style": {
                         "height": "7vh",
-                        "width": "7vh",
-                        "marginTop": "-10vh"
+                        "width": "7vh"
+                      }
+                    },
+                    {
+                      "section": "Champion",
+                      "style": {
+                        "height": "8vh",
+                        "width": "8vh",
+                        "marginTop": "0.5vh",
+                        "borderRadius": "1vh"
                       }
                     }
                   ]
                 },
                 {
-                  "section": "Champion",
-                  "style": {
-                    "width": "10vh",
-                    "height": "10vh",
-                    "margin": "0.25vh",
-                    "marginTop": "-10vh",
-                    "borderRadius": "1vh"
-                  }
-                },
-                {
                   "section": "Mana",
                   "style": {
-                    "margin": "0.25vh",
-                    "borderRadius": "1vh",
-                    "marginTop": "-16vh",
-                    "height": "15vh"
+                    "height": "18vh",
+                    "marginRight": "0.5vh",
+                    "borderRadius": "1vh"
                   }
                 },
                 {
                   "direction": "column",
                   "style": {
-                    "width": "10vh",
-                    "margin": "0.25vh"
+                    "width": "10vh"
                   },
                   "content": [
                     {
                       "section": "Banishment",
                       "style": {
-                        "height": "5vh",
-                        "width": "7vh",
-                        "marginLeft": "12vh",
-                        "marginTop": "-12vh"
+                        "height": "4.5vh",
+                        "width": "6.5vh",
+                        "marginBottom": "0.5vh",
+                        "marginLeft": "2vh"
                       }
                     },
                     {
                       "section": "Deck",
                       "style": {
-                        "marginTop": "0.5vh",
-                        "height": "6.5vh"
+                        "height": "6.5vh",
+                        "marginBottom": "0.5vh"
                       }
                     },
                     {
                       "section": "Discard",
                       "style": {
-                        "marginTop": "0.5vh",
                         "height": "6.5vh"
                       }
                     }
@@ -215,6 +213,23 @@
           "Deck"
         ],
         "autoPlayFromHand": {
+          "ACTION": "Stack",
+          "ALLY": "Stack",
+          "ATTACK": "Stack",
+          "DOMAIN": "Stack",
+          "ITEM": "Stack",
+          "MASTERY": "Stack",
+          "Material": "Stack",
+          "PHANTASIA": "Stack",
+          "PHANTASIA / ALLY": "Stack",
+          "UNIQUE / ALLY": "Stack",
+          "UNIQUE / DOMAIN": "Stack",
+          "UNIQUE / ITEM": "Stack",
+          "UNIQUE / PHANTASIA": "Stack",
+          "UNIQUE / WEAPON": "Stack",
+          "WEAPON": "Stack"
+        },
+        "autoPlayFromStack": {
           "ALLY": "Field",
           "DOMAIN": "Field",
           "ITEM": "Field",
@@ -228,10 +243,6 @@
           "UNIQUE / PHANTASIA": "Field",
           "UNIQUE / WEAPON": "Field",
           "WEAPON": "Field",
-          "ACTION": "Stack",
-          "ATTACK": "Stack"
-        },
-        "autoPlayFromStack": {
           "ACTION": "Discard",
           "ATTACK": "Discard"
         },
@@ -385,7 +396,7 @@
             {
               "section": "Field",
               "style": {
-                "height": "28vh",
+                "height": "24vh",
                 "borderRadius": "1vh",
                 "margin": "0.25vh"
               }
@@ -399,13 +410,16 @@
             },
             {
               "direction": "row",
-              "style": false,
+              "style": {
+                "margin": "0.25vh",
+                "alignItems": "flex-start"
+              },
               "content": [
                 {
                   "direction": "column",
                   "style": {
                     "width": "10vh",
-                    "margin": "0.25vh"
+                    "marginRight": "0.5vh"
                   },
                   "content": [
                     {
@@ -413,65 +427,60 @@
                       "style": {
                         "height": "7vh",
                         "width": "14vh",
-                        "marginBottom": "0.25vh"
+                        "marginBottom": "0.5vh"
                       }
                     },
                     {
                       "section": "Material",
                       "style": {
                         "height": "7vh",
-                        "width": "7vh",
-                        "marginTop": "-10vh"
+                        "width": "7vh"
+                      }
+                    },
+                    {
+                      "section": "Champion",
+                      "style": {
+                        "height": "8vh",
+                        "width": "8vh",
+                        "marginTop": "0.5vh",
+                        "borderRadius": "1vh"
                       }
                     }
                   ]
                 },
                 {
-                  "section": "Champion",
-                  "style": {
-                    "width": "10vh",
-                    "height": "10vh",
-                    "margin": "0.25vh",
-                    "marginTop": "-10vh",
-                    "borderRadius": "1vh"
-                  }
-                },
-                {
                   "section": "Mana",
                   "style": {
-                    "margin": "0.25vh",
-                    "borderRadius": "1vh",
-                    "marginTop": "-16vh",
-                    "height": "15vh"
+                    "height": "18vh",
+                    "marginRight": "0.5vh",
+                    "borderRadius": "1vh"
                   }
                 },
                 {
                   "direction": "column",
                   "style": {
-                    "width": "10vh",
-                    "margin": "0.25vh"
+                    "width": "10vh"
                   },
                   "content": [
                     {
                       "section": "Banishment",
                       "style": {
-                        "height": "5vh",
-                        "width": "7vh",
-                        "marginLeft": "12vh",
-                        "marginTop": "-12vh"
+                        "height": "4.5vh",
+                        "width": "6.5vh",
+                        "marginBottom": "0.5vh",
+                        "marginLeft": "2vh"
                       }
                     },
                     {
                       "section": "Deck",
                       "style": {
-                        "marginTop": "0.5vh",
-                        "height": "6.5vh"
+                        "height": "6.5vh",
+                        "marginBottom": "0.5vh"
                       }
                     },
                     {
                       "section": "Discard",
                       "style": {
-                        "marginTop": "0.5vh",
                         "height": "6.5vh"
                       }
                     }
@@ -487,6 +496,23 @@
           "Deck"
         ],
         "autoPlayFromHand": {
+          "ACTION": "Stack",
+          "ALLY": "Stack",
+          "ATTACK": "Stack",
+          "DOMAIN": "Stack",
+          "ITEM": "Stack",
+          "MASTERY": "Stack",
+          "Material": "Stack",
+          "PHANTASIA": "Stack",
+          "PHANTASIA / ALLY": "Stack",
+          "UNIQUE / ALLY": "Stack",
+          "UNIQUE / DOMAIN": "Stack",
+          "UNIQUE / ITEM": "Stack",
+          "UNIQUE / PHANTASIA": "Stack",
+          "UNIQUE / WEAPON": "Stack",
+          "WEAPON": "Stack"
+        },
+        "autoPlayFromStack": {
           "ALLY": "Field",
           "DOMAIN": "Field",
           "ITEM": "Field",
@@ -500,10 +526,6 @@
           "UNIQUE / PHANTASIA": "Field",
           "UNIQUE / WEAPON": "Field",
           "WEAPON": "Field",
-          "ACTION": "Stack",
-          "ATTACK": "Stack"
-        },
-        "autoPlayFromStack": {
           "ACTION": "Discard",
           "ATTACK": "Discard"
         },
