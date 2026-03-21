@@ -1,0 +1,305 @@
+[
+  {
+    "title": "Diana, Moonpiercer Starter Deck",
+    "id": "459a83be-c2a7-4556-94d2-a874cf661796",
+    "game": "Grand Archive",
+    "format": [
+      "Standard"
+    ],
+    "cardCount": 72,
+    "createdAt": "2026-03-21T01:00:51.274Z",
+    "lastModifiedAt": "2026-03-21T01:00:51.274Z",
+    "deckList": {
+      "categoriesOrder": [
+        "Material",
+        "ALLY",
+        "ACTION",
+        "Sideboard"
+      ],
+      "Material": [
+        {
+          "count": 1,
+          "id": "tafqldAGRF"
+        },
+        {
+          "count": 1,
+          "id": "m7f6r8f3y8"
+        },
+        {
+          "count": 1,
+          "id": "wiztyu6o24"
+        },
+        {
+          "count": 1,
+          "id": "v3vfjtwm7g"
+        },
+        {
+          "count": 1,
+          "id": "Z9TCpaMJTc"
+        },
+        {
+          "count": 1,
+          "id": "drnxdiltx3"
+        },
+        {
+          "count": 1,
+          "id": "fbs9qzo3f6"
+        },
+        {
+          "count": 1,
+          "id": "vm4xg2hedp"
+        },
+        {
+          "count": 1,
+          "id": "bf7yzaqes4"
+        },
+        {
+          "count": 1,
+          "id": "xnrw8qq1uw"
+        },
+        {
+          "count": 1,
+          "id": "3n5x9fbkn0"
+        },
+        {
+          "count": 1,
+          "id": "rsps1qnzfl"
+        }
+      ],
+      "ALLY": [
+        {
+          "count": 4,
+          "id": "eifnz0fgm3"
+        },
+        {
+          "count": 3,
+          "id": "4e1gqwah01"
+        }
+      ],
+      "ACTION": [
+        {
+          "count": 4,
+          "id": "7l9th23niu"
+        },
+        {
+          "count": 4,
+          "id": "sesw2ugmnm"
+        },
+        {
+          "count": 4,
+          "id": "ra9950o14t"
+        },
+        {
+          "count": 3,
+          "id": "rWhFC8XBaH"
+        },
+        {
+          "count": 4,
+          "id": "0w5bp5nuae"
+        },
+        {
+          "count": 4,
+          "id": "vfq3huqj5b"
+        },
+        {
+          "count": 4,
+          "id": "bx25s7kiln"
+        },
+        {
+          "count": 4,
+          "id": "gnfbp3g8iw"
+        },
+        {
+          "count": 3,
+          "id": "xicxo661ly"
+        },
+        {
+          "count": 3,
+          "id": "zuj68m69iq"
+        },
+        {
+          "count": 4,
+          "id": "nypwwnirjk"
+        },
+        {
+          "count": 2,
+          "id": "b0iz7wm7ow"
+        },
+        {
+          "count": 2,
+          "id": "10u5ldz371"
+        },
+        {
+          "count": 3,
+          "id": "w64layznmh"
+        },
+        {
+          "count": 3,
+          "id": "xwwkxq0vp3"
+        },
+        {
+          "count": 2,
+          "id": "qxu89i1mrk"
+        }
+      ],
+      "Sideboard": []
+    }
+  },
+  {
+    "title": "Ciel, Mirage’s Grave Starter Deck",
+    "id": "f80cee7f-2eee-4786-8475-abd664189ae7",
+    "game": "Grand Archive",
+    "format": [
+      "Standard"
+    ],
+    "cardCount": 72,
+    "createdAt": "2026-03-21T01:00:51.274Z",
+    "lastModifiedAt": "2026-03-21T01:00:51.274Z",
+    "deckList": {
+      "categoriesOrder": [
+        "Material",
+        "ALLY",
+        "ATTACK",
+        "ACTION",
+        "Sideboard"
+      ],
+      "Material": [
+        {
+          "count": 1,
+          "id": "LMyKyVC2O9"
+        },
+        {
+          "count": 1,
+          "id": "nn48ne8a05"
+        },
+        {
+          "count": 1,
+          "id": "o69ogocemo"
+        },
+        {
+          "count": 1,
+          "id": "zhh43i1eaa"
+        },
+        {
+          "count": 1,
+          "id": "Z9TCpaMJTc"
+        },
+        {
+          "count": 1,
+          "id": "6ihv6hbvye"
+        },
+        {
+          "count": 1,
+          "id": "8kmoi0a5uh"
+        },
+        {
+          "count": 1,
+          "id": "pgysz2zfji"
+        },
+        {
+          "count": 1,
+          "id": "1XegCUjBnY"
+        },
+        {
+          "count": 1,
+          "id": "xnrw8qq1uw"
+        },
+        {
+          "count": 1,
+          "id": "fm894uc4ij"
+        },
+        {
+          "count": 1,
+          "id": "s4b2mkh1xm"
+        }
+      ],
+      "ALLY": [
+        {
+          "count": 3,
+          "id": "vo1qr9bkme"
+        },
+        {
+          "count": 3,
+          "id": "tu7jvjf2gh"
+        },
+        {
+          "count": 4,
+          "id": "eifnz0fgm3"
+        },
+        {
+          "count": 3,
+          "id": "pc3zpkw43o"
+        },
+        {
+          "count": 4,
+          "id": "cworak5y4y"
+        },
+        {
+          "count": 4,
+          "id": "puyzn48srd"
+        },
+        {
+          "count": 3,
+          "id": "izgiu216l2"
+        },
+        {
+          "count": 4,
+          "id": "crv1etn4g3"
+        }
+      ],
+      "ATTACK": [
+        {
+          "count": 4,
+          "id": "kvoqk1l75t"
+        },
+        {
+          "count": 2,
+          "id": "1t3dvor61i"
+        },
+        {
+          "count": 3,
+          "id": "e1xj8mqr2o"
+        }
+      ],
+      "ACTION": [
+        {
+          "count": 4,
+          "id": "j6er6z99sv"
+        },
+        {
+          "count": 3,
+          "id": "vyRjDql0TR"
+        },
+        {
+          "count": 4,
+          "id": "rWhFC8XBaH"
+        },
+        {
+          "count": 2,
+          "id": "nsdwmxz1vd"
+        },
+        {
+          "count": 2,
+          "id": "14hr8i5oix"
+        },
+        {
+          "count": 3,
+          "id": "f15joh300z"
+        },
+        {
+          "count": 2,
+          "id": "1bxh5xz2uz"
+        },
+        {
+          "count": 2,
+          "id": "1a5zdqgydt"
+        },
+        {
+          "count": 1,
+          "id": "ri955ygd5v"
+        }
+      ],
+      "Sideboard": []
+    }
+  }
+]

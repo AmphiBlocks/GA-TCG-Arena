@@ -6,7 +6,7 @@
       "https://content.gatcg.com/uploads/Lorraine_I_Banner_7816b252b1.jpg",
       "https://ga-mainsite-common.s3.us-west-2.amazonaws.com/media/diana_banner_35ed611216.png"
     ],
-    "decksUrl": ""
+    "decksUrl": "https://raw.githubusercontent.com/AmphiBlocks/GA-TCG-Arena/main/Grand-Archive-Decks.json"
   },
   "customHelp": "Custom Help Message - Replace Later",
   "cardRotation": 45,
@@ -152,17 +152,19 @@
                       "style": {
                         "height": "12vh"
                       }
-                    },
-                    {
-                      "section": "Champion",
-                      "style": {
-                        "height": "16vh",
-                        "marginTop": "-8vh",
-                        "width": "18vh",
-                        "marginLeft": "2vh"
-                      }
                     }
                   ]
+                },
+                {
+                  "section": "Champion",
+                  "style": {
+                    "width": "12vh",
+                    "height": "12vh",
+                    "margin": "0.25vh",
+                    "marginTop": "-6vh",
+                    "marginRight": "0.5vh",
+                    "borderRadius": "1vh"
+                  }
                 },
                 {
                   "section": "Memory",
@@ -182,9 +184,9 @@
                     {
                       "section": "Banishment",
                       "style": {
-                        "height": "8vh",
-                        "width": "16vh",
-                        "marginLeft": "-16vh",
+                        "height": "6vh",
+                        "width": "8vh",
+                        "marginLeft": "16vh",
                         "marginTop": "-16vh"
                       }
                     },
@@ -236,22 +238,18 @@
           "Champion": {
             "title": "Champion",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "12",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
-            "isHorizontalAllowed": false,
+            "isHorizontalAllowed": true,
             "displayedTitle": "Champion",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "cardStyle": {
-              "marginLeft": "-5.5vh"
-            },
-            "reverseZOrder": true
+            "showHiddenCardInHistory": false
           },
           "Field": {
             "title": "Field",
@@ -288,7 +286,7 @@
           "Banishment": {
             "title": "Banishment",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
@@ -408,17 +406,19 @@
                       "style": {
                         "height": "12vh"
                       }
-                    },
-                    {
-                      "section": "Champion",
-                      "style": {
-                        "height": "16vh",
-                        "marginTop": "-8vh",
-                        "width": "18vh",
-                        "marginLeft": "2vh"
-                      }
                     }
                   ]
+                },
+                {
+                  "section": "Champion",
+                  "style": {
+                    "width": "12vh",
+                    "height": "12vh",
+                    "margin": "0.25vh",
+                    "marginTop": "-6vh",
+                    "marginRight": "0.5vh",
+                    "borderRadius": "1vh"
+                  }
                 },
                 {
                   "section": "Memory",
@@ -438,9 +438,9 @@
                     {
                       "section": "Banishment",
                       "style": {
-                        "height": "8vh",
-                        "width": "16vh",
-                        "marginLeft": "-16vh",
+                        "height": "6vh",
+                        "width": "8vh",
+                        "marginLeft": "16vh",
                         "marginTop": "-16vh"
                       }
                     },
@@ -493,22 +493,18 @@
           "Champion": {
             "title": "Champion",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "12",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
-            "isHorizontalAllowed": false,
+            "isHorizontalAllowed": true,
             "displayedTitle": "Champion",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "cardStyle": {
-              "marginLeft": "-5.5vh"
-            },
-            "reverseZOrder": true
+            "showHiddenCardInHistory": false
           },
           "Field": {
             "title": "Field",
@@ -545,7 +541,7 @@
           "Banishment": {
             "title": "Banishment",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
