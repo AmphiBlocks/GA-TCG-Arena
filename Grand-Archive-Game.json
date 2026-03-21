@@ -136,23 +136,21 @@
             },
             {
               "direction": "row",
-              "style": {
-                "minHeight": "14vh"
-              },
+              "style": false,
               "content": [
                 {
                   "direction": "column",
                   "style": {
-                    "width": "12vh",
+                    "width": "10vh",
                     "margin": "0.25vh"
                   },
                   "content": [
                     {
                       "section": "Material",
                       "style": {
-                        "height": "8vh",
-                        "width": "8vh",
-                        "marginTop": "-16vh"
+                        "height": "7vh",
+                        "width": "7vh",
+                        "marginTop": "-10vh"
                       }
                     }
                   ]
@@ -160,11 +158,10 @@
                 {
                   "section": "Champion",
                   "style": {
-                    "width": "12vh",
-                    "height": "12vh",
+                    "width": "10vh",
+                    "height": "10vh",
                     "margin": "0.25vh",
-                    "marginTop": "-16vh",
-                    "marginRight": "0.5vh",
+                    "marginTop": "-10vh",
                     "borderRadius": "1vh"
                   }
                 },
@@ -173,38 +170,38 @@
                   "style": {
                     "margin": "0.25vh",
                     "borderRadius": "1vh",
-                    "marginTop": "-14vh",
-                    "height": "16vh"
+                    "marginTop": "-8vh",
+                    "height": "15vh"
                   }
                 },
                 {
                   "direction": "column",
                   "style": {
-                    "width": "11vh",
+                    "width": "10vh",
                     "margin": "0.25vh"
                   },
                   "content": [
                     {
                       "section": "Banishment",
                       "style": {
-                        "height": "6vh",
-                        "width": "8vh",
-                        "marginLeft": "16vh",
-                        "marginTop": "-16vh"
+                        "height": "5vh",
+                        "width": "7vh",
+                        "marginLeft": "12vh",
+                        "marginTop": "-12vh"
                       }
                     },
                     {
                       "section": "Deck",
                       "style": {
                         "marginTop": "0.5vh",
-                        "height": "7vh"
+                        "height": "6.5vh"
                       }
                     },
                     {
                       "section": "Discard",
                       "style": {
                         "marginTop": "0.5vh",
-                        "height": "7vh"
+                        "height": "6.5vh"
                       }
                     }
                   ]
@@ -305,8 +302,8 @@
           },
           "Mana": {
             "title": "Mana",
-            "isHidden": "opponent-only",
-            "height": "16",
+            "isHidden": "yes",
+            "height": "15",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
@@ -385,31 +382,29 @@
             },
             {
               "direction": "row",
-              "style": {
-                "minHeight": "14vh"
-              },
+              "style": false,
               "content": [
                 {
                   "direction": "column",
                   "style": {
-                    "width": "12vh",
+                    "width": "10vh",
                     "margin": "0.25vh"
                   },
                   "content": [
                     {
                       "section": "Boons",
                       "style": {
-                        "height": "8.5vh",
-                        "width": "20.5vh",
-                        "marginBottom": "0.5vh"
+                        "height": "7vh",
+                        "width": "14vh",
+                        "marginBottom": "0.25vh"
                       }
                     },
                     {
                       "section": "Material",
                       "style": {
-                        "height": "8vh",
-                        "width": "8vh",
-                        "marginTop": "-16vh"
+                        "height": "7vh",
+                        "width": "7vh",
+                        "marginTop": "-10vh"
                       }
                     }
                   ]
@@ -417,11 +412,10 @@
                 {
                   "section": "Champion",
                   "style": {
-                    "width": "12vh",
-                    "height": "12vh",
+                    "width": "10vh",
+                    "height": "10vh",
                     "margin": "0.25vh",
-                    "marginTop": "-16vh",
-                    "marginRight": "0.5vh",
+                    "marginTop": "-10vh",
                     "borderRadius": "1vh"
                   }
                 },
@@ -430,38 +424,38 @@
                   "style": {
                     "margin": "0.25vh",
                     "borderRadius": "1vh",
-                    "marginTop": "-14vh",
-                    "height": "16vh"
+                    "marginTop": "-8vh",
+                    "height": "15vh"
                   }
                 },
                 {
                   "direction": "column",
                   "style": {
-                    "width": "11vh",
+                    "width": "10vh",
                     "margin": "0.25vh"
                   },
                   "content": [
                     {
                       "section": "Banishment",
                       "style": {
-                        "height": "6vh",
-                        "width": "8vh",
-                        "marginLeft": "16vh",
-                        "marginTop": "-16vh"
+                        "height": "5vh",
+                        "width": "7vh",
+                        "marginLeft": "12vh",
+                        "marginTop": "-12vh"
                       }
                     },
                     {
                       "section": "Deck",
                       "style": {
                         "marginTop": "0.5vh",
-                        "height": "7vh"
+                        "height": "6.5vh"
                       }
                     },
                     {
                       "section": "Discard",
                       "style": {
                         "marginTop": "0.5vh",
-                        "height": "7vh"
+                        "height": "6.5vh"
                       }
                     }
                   ]
@@ -579,8 +573,8 @@
           },
           "Mana": {
             "title": "Mana",
-            "isHidden": "opponent-only",
-            "height": "16",
+            "isHidden": "yes",
+            "height": "15",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
