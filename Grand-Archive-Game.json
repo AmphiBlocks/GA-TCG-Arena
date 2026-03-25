@@ -162,7 +162,7 @@
                   "style": {
                     "margin": "0.25vh",
                     "borderRadius": "1vh",
-                    "marginTop": "-16vh",
+                    "marginTop": "-8vh",
                     "height": "15vh"
                   }
                 },
@@ -180,13 +180,6 @@
                         "width": "7vh",
                         "marginLeft": "12vh",
                         "marginTop": "-12vh"
-                      }
-                    },
-                    {
-                      "section": "Deck",
-                      "style": {
-                        "marginTop": "0.5vh",
-                        "height": "6.5vh"
                       }
                     },
                     {
@@ -438,7 +431,7 @@
                   "style": {
                     "margin": "0.25vh",
                     "borderRadius": "1vh",
-                    "marginTop": "-16vh",
+                    "marginTop": "-8vh",
                     "height": "15vh"
                   }
                 },
@@ -456,13 +449,6 @@
                         "width": "7vh",
                         "marginLeft": "12vh",
                         "marginTop": "-12vh"
-                      }
-                    },
-                    {
-                      "section": "Deck",
-                      "style": {
-                        "marginTop": "0.5vh",
-                        "height": "6.5vh"
                       }
                     },
                     {
