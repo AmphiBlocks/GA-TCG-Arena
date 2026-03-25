@@ -150,10 +150,11 @@
                 {
                   "section": "Champion",
                   "style": {
-                    "width": "10vh",
-                    "height": "10vh",
+                    "width": "12vh",
+                    "height": "12vh",
                     "margin": "0.25vh",
-                    "marginTop": "-10vh",
+                    "marginTop": "-8vh",
+                    "marginLeft": "1.5vh",
                     "borderRadius": "1vh"
                   }
                 },
@@ -179,7 +180,7 @@
                         "height": "5vh",
                         "width": "7vh",
                         "marginLeft": "12vh",
-                        "marginTop": "-12vh"
+                        "marginTop": "-20vh"
                       }
                     },
                     {
@@ -218,11 +219,15 @@
         },
         "autoPlayFromStack": {
           "ALLY": "Field",
+          "CHAMPION": "Champion",
           "DOMAIN": "Field",
           "ITEM": "Field",
           "MASTERY": "Field",
           "Material": "Field",
           "PHANTASIA": "Field",
+          "REGALIA / ALLY": "Field",
+          "REGALIA / ITEM": "Field",
+          "REGALIA / WEAPON": "Field",
           "PHANTASIA / ALLY": "Field",
           "UNIQUE / ALLY": "Field",
           "UNIQUE / DOMAIN": "Field",
@@ -419,10 +424,11 @@
                 {
                   "section": "Champion",
                   "style": {
-                    "width": "10vh",
-                    "height": "10vh",
+                    "width": "12vh",
+                    "height": "12vh",
                     "margin": "0.25vh",
-                    "marginTop": "-10vh",
+                    "marginTop": "-8vh",
+                    "marginLeft": "1.5vh",
                     "borderRadius": "1vh"
                   }
                 },
@@ -448,7 +454,7 @@
                         "height": "5vh",
                         "width": "7vh",
                         "marginLeft": "12vh",
-                        "marginTop": "-12vh"
+                        "marginTop": "-20vh"
                       }
                     },
                     {
@@ -488,11 +494,15 @@
         },
         "autoPlayFromStack": {
           "ALLY": "Field",
+          "CHAMPION": "Champion",
           "DOMAIN": "Field",
           "ITEM": "Field",
           "MASTERY": "Field",
           "Material": "Field",
           "PHANTASIA": "Field",
+          "REGALIA / ALLY": "Field",
+          "REGALIA / ITEM": "Field",
+          "REGALIA / WEAPON": "Field",
           "PHANTASIA / ALLY": "Field",
           "UNIQUE / ALLY": "Field",
           "UNIQUE / DOMAIN": "Field",
