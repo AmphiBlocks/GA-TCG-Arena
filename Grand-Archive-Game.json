@@ -110,6 +110,7 @@
         "customSections": [
           "Material",
           "Champion",
+          "Banishment",
           "Mana",
           "Field"
         ],
@@ -163,13 +164,19 @@
                     "margin": "0.25vh",
                     "borderRadius": "1vh",
                     "marginTop": "-8vh",
-                    "height": "15vh"
+                    "height": "15vh",
+                    "width": "26vh"
                   }
                 },
                 {
-                  "direction": "column",
-                  "style": false,
-                  "content": []
+                  "section": "Banishment",
+                  "style": {
+                    "margin": "0.25vh",
+                    "borderRadius": "1vh",
+                    "marginTop": "-8vh",
+                    "height": "15vh",
+                    "width": "22vh"
+                  }
                 }
               ]
             }
@@ -266,6 +273,22 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "Banishment": {
+            "title": "Banishment",
+            "isHidden": "no",
+            "height": "15",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Banishment",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": true,
+            "noQuickActions": false
+          },
           "Stack": {
             "title": "Stack",
             "isDefaultSection": true,
@@ -338,6 +361,7 @@
         "customSections": [
           "Material",
           "Champion",
+          "Banishment",
           "Mana",
           "Field",
           "Boons"
@@ -400,13 +424,19 @@
                     "margin": "0.25vh",
                     "borderRadius": "1vh",
                     "marginTop": "-8vh",
-                    "height": "15vh"
+                    "height": "15vh",
+                    "width": "26vh"
                   }
                 },
                 {
-                  "direction": "column",
-                  "style": false,
-                  "content": []
+                  "section": "Banishment",
+                  "style": {
+                    "margin": "0.25vh",
+                    "borderRadius": "1vh",
+                    "marginTop": "-8vh",
+                    "height": "15vh",
+                    "width": "22vh"
+                  }
                 }
               ]
             }
@@ -503,6 +533,22 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "Banishment": {
+            "title": "Banishment",
+            "isHidden": "no",
+            "height": "15",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Banishment",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": true,
+            "noQuickActions": false
           },
           "Stack": {
             "title": "Stack",
